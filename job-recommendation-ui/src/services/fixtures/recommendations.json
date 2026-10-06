@@ -1,0 +1,227 @@
+{
+  "1": [
+    {
+      "jobId": 1,
+      "title": "Java Backend Developer",
+      "company": "Google",
+      "location": "Bengaluru",
+      "minExperienceYears": 4,
+      "salary": 1800000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Spring Boot", "PostgreSQL", "REST API"],
+      "requiredSkills": ["Java", "Spring Boot", "PostgreSQL", "REST API"],
+      "matchedSkillCount": 4,
+      "matchScore": 96,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement",
+        "Same location: Bengaluru"
+      ]
+    },
+    {
+      "jobId": 49,
+      "title": "Infosys Java Consultant",
+      "company": "Infosys",
+      "location": "Bengaluru",
+      "minExperienceYears": 5,
+      "salary": 1700000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Spring Boot", "Hibernate", "Microservices"],
+      "requiredSkills": ["Java", "Spring Boot", "Hibernate", "Microservices"],
+      "matchedSkillCount": 4,
+      "matchScore": 94,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement",
+        "Same location: Bengaluru",
+        "Former employer: Infosys"
+      ]
+    },
+    {
+      "jobId": 43,
+      "title": "Product Backend Engineer",
+      "company": "Swiggy",
+      "location": "Bengaluru",
+      "minExperienceYears": 3,
+      "salary": 2000000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Spring Boot", "REST API", "Docker"],
+      "requiredSkills": ["Java", "Spring Boot", "REST API", "Docker"],
+      "matchedSkillCount": 4,
+      "matchScore": 88,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement",
+        "Same location: Bengaluru"
+      ]
+    },
+    {
+      "jobId": 3,
+      "title": "Backend Developer",
+      "company": "Infosys",
+      "location": "Hyderabad",
+      "minExperienceYears": 3,
+      "salary": 1600000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+      "requiredSkills": ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+      "matchedSkillCount": 4,
+      "matchScore": 84,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement",
+        "Former employer: Infosys",
+        "Connected through 3 colleagues from previous companies"
+      ]
+    },
+    {
+      "jobId": 28,
+      "title": "Contract Spring Developer",
+      "company": "Accenture",
+      "location": "Remote",
+      "minExperienceYears": 4,
+      "salary": 2000000,
+      "employmentType": "CONTRACT",
+      "matchedSkills": ["Java", "Spring Boot", "REST API"],
+      "requiredSkills": ["Java", "Spring Boot", "REST API"],
+      "matchedSkillCount": 3,
+      "matchScore": 82,
+      "reasons": [
+        "Matches 3 of 3 required skills",
+        "Experience meets the job requirement",
+        "Remote-friendly location match"
+      ]
+    },
+    {
+      "jobId": 50,
+      "title": "PhonePe Backend Engineer",
+      "company": "PhonePe",
+      "location": "Bengaluru",
+      "minExperienceYears": 4,
+      "salary": 2700000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Spring Boot"],
+      "requiredSkills": ["Java", "Spring Boot", "Kafka", "Redis", "System Design"],
+      "matchedSkillCount": 2,
+      "matchScore": 76,
+      "reasons": [
+        "Matches 2 of 5 required skills",
+        "Experience meets the job requirement",
+        "Same location: Bengaluru"
+      ]
+    },
+    {
+      "jobId": 19,
+      "title": "Java Engineer",
+      "company": "TCS",
+      "location": "Pune",
+      "minExperienceYears": 3,
+      "salary": 1500000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Spring Boot", "Hibernate", "PostgreSQL"],
+      "requiredSkills": ["Java", "Spring Boot", "Hibernate", "PostgreSQL"],
+      "matchedSkillCount": 4,
+      "matchScore": 72,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement"
+      ]
+    },
+    {
+      "jobId": 2,
+      "title": "Senior Spring Boot Engineer",
+      "company": "Amazon",
+      "location": "Bengaluru",
+      "minExperienceYears": 6,
+      "salary": 2600000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Spring Boot", "Microservices", "Hibernate"],
+      "requiredSkills": ["Java", "Spring Boot", "Microservices", "Kafka", "Hibernate"],
+      "matchedSkillCount": 4,
+      "matchScore": 68,
+      "reasons": [
+        "Matches 4 of 5 required skills",
+        "Partial experience match (5/6 years)",
+        "Same location: Bengaluru"
+      ]
+    },
+    {
+      "jobId": 37,
+      "title": "Hibernate/JPA Developer",
+      "company": "Infosys",
+      "location": "Chennai",
+      "minExperienceYears": 3,
+      "salary": 1400000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Java", "Hibernate", "PostgreSQL", "Spring Boot"],
+      "requiredSkills": ["Java", "Hibernate", "PostgreSQL", "Spring Boot"],
+      "matchedSkillCount": 4,
+      "matchScore": 64,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement",
+        "Former employer: Infosys"
+      ]
+    },
+    {
+      "jobId": 27,
+      "title": "Intern - Backend",
+      "company": "Zoho",
+      "location": "Bengaluru",
+      "minExperienceYears": 0,
+      "salary": 400000,
+      "employmentType": "INTERNSHIP",
+      "matchedSkills": ["Java", "REST API", "Git"],
+      "requiredSkills": ["Java", "REST API", "Git"],
+      "matchedSkillCount": 3,
+      "matchScore": 58,
+      "reasons": [
+        "Matches 3 of 3 required skills",
+        "Experience meets the job requirement",
+        "Same location: Bengaluru"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "jobId": 6,
+      "title": "React Frontend Engineer",
+      "company": "TCS",
+      "location": "Pune",
+      "minExperienceYears": 2,
+      "salary": 1400000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["React", "TypeScript", "Next.js", "REST API"],
+      "requiredSkills": ["React", "TypeScript", "Next.js", "REST API"],
+      "matchedSkillCount": 4,
+      "matchScore": 91,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement",
+        "Same location: Pune",
+        "Former employer: TCS"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "jobId": 10,
+      "title": "Python ML Engineer",
+      "company": "Amazon",
+      "location": "Hyderabad",
+      "minExperienceYears": 3,
+      "salary": 2000000,
+      "employmentType": "FULL_TIME",
+      "matchedSkills": ["Python", "Machine Learning", "Pandas", "SQL"],
+      "requiredSkills": ["Python", "Machine Learning", "Pandas", "SQL"],
+      "matchedSkillCount": 4,
+      "matchScore": 93,
+      "reasons": [
+        "Matches 4 of 4 required skills",
+        "Experience meets the job requirement",
+        "Same location: Hyderabad",
+        "Former employer: Amazon"
+      ]
+    }
+  ]
+}

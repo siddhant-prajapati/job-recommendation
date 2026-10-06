@@ -1,0 +1,13 @@
+[
+  { "id": 1, "name": "Infosys" },
+  { "id": 2, "name": "TCS" },
+  { "id": 4, "name": "Accenture" },
+  { "id": 5, "name": "Amazon" },
+  { "id": 6, "name": "Google" },
+  { "id": 7, "name": "Microsoft" },
+  { "id": 8, "name": "Flipkart" },
+  { "id": 9, "name": "Swiggy" },
+  { "id": 10, "name": "Razorpay" },
+  { "id": 11, "name": "Zoho" },
+  { "id": 12, "name": "PhonePe" }
+]

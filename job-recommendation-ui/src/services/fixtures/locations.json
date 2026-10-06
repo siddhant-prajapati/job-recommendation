@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Bengaluru" },
+  { "id": 2, "name": "Hyderabad" },
+  { "id": 3, "name": "Pune" },
+  { "id": 4, "name": "Mumbai" },
+  { "id": 5, "name": "Delhi" },
+  { "id": 6, "name": "Chennai" },
+  { "id": 7, "name": "Kolkata" },
+  { "id": 8, "name": "Noida" },
+  { "id": 9, "name": "Remote" }
+]

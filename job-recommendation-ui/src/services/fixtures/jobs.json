@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Java Backend Developer",
+    "location": "Bengaluru",
+    "minExperienceYears": 4,
+    "salary": 1800000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 6, "name": "Google" },
+    "locatedIn": { "id": 1, "name": "Bengaluru" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 3, "name": "PostgreSQL" },
+      { "id": 18, "name": "REST API" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Senior Spring Boot Engineer",
+    "location": "Bengaluru",
+    "minExperienceYears": 6,
+    "salary": 2600000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 5, "name": "Amazon" },
+    "locatedIn": { "id": 1, "name": "Bengaluru" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 17, "name": "Microservices" },
+      { "id": 5, "name": "Kafka" },
+      { "id": 21, "name": "Hibernate" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "location": "Hyderabad",
+    "minExperienceYears": 3,
+    "salary": 1600000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 1, "name": "Infosys" },
+    "locatedIn": { "id": 2, "name": "Hyderabad" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 3, "name": "PostgreSQL" },
+      { "id": 7, "name": "Docker" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Java Engineer",
+    "location": "Pune",
+    "minExperienceYears": 3,
+    "salary": 1500000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 2, "name": "TCS" },
+    "locatedIn": { "id": 3, "name": "Pune" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 21, "name": "Hibernate" },
+      { "id": 3, "name": "PostgreSQL" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Intern - Backend",
+    "location": "Bengaluru",
+    "minExperienceYears": 0,
+    "salary": 400000,
+    "employmentType": "INTERNSHIP",
+    "company": { "id": 11, "name": "Zoho" },
+    "locatedIn": { "id": 1, "name": "Bengaluru" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 18, "name": "REST API" },
+      { "id": 22, "name": "Git" }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Contract Spring Developer",
+    "location": "Remote",
+    "minExperienceYears": 4,
+    "salary": 2000000,
+    "employmentType": "CONTRACT",
+    "company": { "id": 4, "name": "Accenture" },
+    "locatedIn": { "id": 9, "name": "Remote" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 18, "name": "REST API" }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Hibernate/JPA Developer",
+    "location": "Chennai",
+    "minExperienceYears": 3,
+    "salary": 1400000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 1, "name": "Infosys" },
+    "locatedIn": { "id": 6, "name": "Chennai" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 21, "name": "Hibernate" },
+      { "id": 3, "name": "PostgreSQL" },
+      { "id": 2, "name": "Spring Boot" }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Product Backend Engineer",
+    "location": "Bengaluru",
+    "minExperienceYears": 3,
+    "salary": 2000000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 9, "name": "Swiggy" },
+    "locatedIn": { "id": 1, "name": "Bengaluru" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 18, "name": "REST API" },
+      { "id": 7, "name": "Docker" }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Infosys Java Consultant",
+    "location": "Bengaluru",
+    "minExperienceYears": 5,
+    "salary": 1700000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 1, "name": "Infosys" },
+    "locatedIn": { "id": 1, "name": "Bengaluru" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 21, "name": "Hibernate" },
+      { "id": 17, "name": "Microservices" }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "PhonePe Backend Engineer",
+    "location": "Bengaluru",
+    "minExperienceYears": 4,
+    "salary": 2700000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 12, "name": "PhonePe" },
+    "locatedIn": { "id": 1, "name": "Bengaluru" },
+    "requiredSkills": [
+      { "id": 1, "name": "Java" },
+      { "id": 2, "name": "Spring Boot" },
+      { "id": 5, "name": "Kafka" },
+      { "id": 6, "name": "Redis" },
+      { "id": 31, "name": "System Design" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "React Frontend Engineer",
+    "location": "Pune",
+    "minExperienceYears": 2,
+    "salary": 1400000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 2, "name": "TCS" },
+    "locatedIn": { "id": 3, "name": "Pune" },
+    "requiredSkills": [
+      { "id": 10, "name": "React" },
+      { "id": 12, "name": "TypeScript" },
+      { "id": 28, "name": "Next.js" },
+      { "id": 18, "name": "REST API" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Python ML Engineer",
+    "location": "Hyderabad",
+    "minExperienceYears": 3,
+    "salary": 2000000,
+    "employmentType": "FULL_TIME",
+    "company": { "id": 5, "name": "Amazon" },
+    "locatedIn": { "id": 2, "name": "Hyderabad" },
+    "requiredSkills": [
+      { "id": 14, "name": "Python" },
+      { "id": 15, "name": "Machine Learning" },
+      { "id": 26, "name": "Pandas" },
+      { "id": 16, "name": "SQL" }
+    ]
+  }
+]

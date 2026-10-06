@@ -1,0 +1,45 @@
+UNWIND [
+  {id: 1, name: 'Alice Sharma', experienceYears: 5, location: 'Bengaluru'},
+  {id: 2, name: 'Rohan Mehta', experienceYears: 3, location: 'Pune'},
+  {id: 3, name: 'Priya Nair', experienceYears: 4, location: 'Hyderabad'},
+  {id: 4, name: 'Vikram Singh', experienceYears: 6, location: 'Delhi'},
+  {id: 5, name: 'Ananya Gupta', experienceYears: 7, location: 'Mumbai'},
+  {id: 6, name: 'Karthik Reddy', experienceYears: 5, location: 'Bengaluru'},
+  {id: 7, name: 'Sneha Iyer', experienceYears: 2, location: 'Chennai'},
+  {id: 8, name: 'Arjun Patel', experienceYears: 8, location: 'Bengaluru'},
+  {id: 9, name: 'Meera Joshi', experienceYears: 4, location: 'Pune'},
+  {id: 10, name: 'Rahul Verma', experienceYears: 6, location: 'Hyderabad'},
+  {id: 11, name: 'Diya Kapoor', experienceYears: 1, location: 'Remote'},
+  {id: 12, name: 'Nikhil Rao', experienceYears: 9, location: 'Bengaluru'},
+  {id: 13, name: 'Ishita Bose', experienceYears: 3, location: 'Kolkata'},
+  {id: 14, name: 'Farhan Ali', experienceYears: 5, location: 'Delhi'},
+  {id: 15, name: 'Aditi Kulkarni', experienceYears: 4, location: 'Pune'},
+  {id: 16, name: 'Sanjay Menon', experienceYears: 10, location: 'Bengaluru'},
+  {id: 17, name: 'Pooja Desai', experienceYears: 2, location: 'Mumbai'},
+  {id: 18, name: 'Harsh Vardhan', experienceYears: 7, location: 'Hyderabad'},
+  {id: 19, name: 'Kavya Pillai', experienceYears: 3, location: 'Chennai'},
+  {id: 20, name: 'Aman Khan', experienceYears: 6, location: 'Remote'},
+  {id: 21, name: 'Neha Bansal', experienceYears: 5, location: 'Bengaluru'},
+  {id: 22, name: 'Ritika Shah', experienceYears: 4, location: 'Mumbai'},
+  {id: 23, name: 'Dev Malhotra', experienceYears: 8, location: 'Delhi'},
+  {id: 24, name: 'Tanvi Rao', experienceYears: 2, location: 'Hyderabad'},
+  {id: 25, name: 'Manish Agarwal', experienceYears: 6, location: 'Bengaluru'},
+  {id: 26, name: 'Shreya Nambiar', experienceYears: 3, location: 'Chennai'},
+  {id: 27, name: 'Yash Thakur', experienceYears: 4, location: 'Pune'},
+  {id: 28, name: 'Leela Krishnan', experienceYears: 9, location: 'Hyderabad'},
+  {id: 29, name: 'Omar Siddiqui', experienceYears: 5, location: 'Delhi'},
+  {id: 30, name: 'Bhavna Reddy', experienceYears: 2, location: 'Bengaluru'},
+  {id: 31, name: 'Kunal Joshi', experienceYears: 7, location: 'Mumbai'},
+  {id: 32, name: 'Aisha Rahman', experienceYears: 4, location: 'Remote'},
+  {id: 33, name: 'Pranav Iyer', experienceYears: 3, location: 'Chennai'},
+  {id: 34, name: 'Sonia Bhatia', experienceYears: 8, location: 'Bengaluru'},
+  {id: 35, name: 'Varun Chopra', experienceYears: 1, location: 'Pune'},
+  {id: 36, name: 'Nisha Menon', experienceYears: 6, location: 'Hyderabad'}
+] AS row
+MERGE (c:Candidate {id: row.id})
+SET c.name = row.name,
+    c.experienceYears = row.experienceYears,
+    c.location = row.location
+WITH c, row
+MATCH (loc:Location {name: row.location})
+MERGE (c)-[:LIVES_IN]->(loc);

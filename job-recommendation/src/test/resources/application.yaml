@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: job-recommendation
+
+cognodb:
+  uri: bolt://localhost:7687
+  username: cognodb
+  password: test
+  database: neo4j
+  seed: false
